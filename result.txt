@@ -1,0 +1,16 @@
+~/t3 $ npm run test
+ alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)                   PASS  ./hText.test.js (6.249 s)              (node:7031) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ PASS  ./hStart.test.js (5.854 s)             (node:7017) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.                 (Use `node --trace-deprecation ...` to show where the warning was created)
+ PASS  ./hDeAuth.test.js (6.092 s)
+(node:7002) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.                 (Use `node --trace-deprecation ...` to show where the warning was created)                   PASS  ./hReg.test.js (6.558 s)                PASS  ./hMyId.test.js
+ PASS  ./botLaunch.test.js                     PASS  ./hHelp.test.js                         PASS  ./hMoment.test.js                      (node:7025) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.                 (Use `node --trace-deprecation ...` to show where the warning was created)                   PASS  ./hAuth.test.js (6.61 s)
+ PASS  ./bot2.test.js                          PASS  ./bot.test.js                          (node:7004) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.                 (Use `node --trace-deprecation ...` to show where the warning was created)                   PASS  ./hRegInfo.test.js (7.135 s)            PASS  ./hNo.test.js
+(node:7010) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.                 (Use `node --trace-deprecation ...` to show where the warning was created)                   PASS  ./hYes.test.js (7.219 s)
+-|---------|----------|---------|---------|-------------------                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                               -|---------|----------|---------|---------|-------------------
+ |   70.08 |       50 |      60 |   69.82 |                                                   |   66.66 |      100 |       0 |   66.66 | 10,14                                            |   70.27 |       50 |   66.66 |      70 | ...86-187,192-201
+-|---------|----------|---------|---------|-------------------
+                                              Test Suites: 14 passed, 14 total              Tests:       18 passed, 18 total
+Snapshots:   0 total                          Time:        8.317 s                          Ran all test suites.
+~/t3 $                                        ~/t3 $                                        ~/t3 $
